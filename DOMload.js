@@ -18,7 +18,5 @@ fact.destruction = function() {
 return fact
 
 })(Factory || {})
-
 Factory.destruction();
-
 

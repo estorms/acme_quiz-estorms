@@ -16,7 +16,16 @@ var products = []
                 products = catalog[2].products[0]
                 console.log('Factory loaded')
 
+
+                    function matchup(x, y, z) {
+                        if  (x.id === y.category && y.category === z.type) {
+                            console.log('matchFound')
+                        }
+                    }
+                    matchup(categories, types, products);
+
             })
+
         }
 
     return fact
