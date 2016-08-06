@@ -13,16 +13,20 @@ var products = []
                 .then(function (catalog) {
                 categories = catalog[0].categories
                 types = catalog[1].types
-                products = catalog[2].products[0]
+                products = catalog[2].products
                 console.log('Factory loaded')
+                console.log(categories, types, products)
 
 
-                    function matchup(x, y, z) {
-                        if  (x.id === y.category && y.category === z.type) {
-                            console.log('matchFound')
+
+                        for (var i in products) {
+                        if  (categories.id === types.category && types.category === products.type) {
+
+                             $( "#destroyThePlanet" ).click(function() {
+                             $("#output").append(`${products[i]}`);
+                                });
                         }
                     }
-                    matchup(categories, types, products);
 
             })
 
