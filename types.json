@@ -8,37 +8,37 @@
         },
 
         {
-            "id": 0,
+            "id": 1,
             "category": 0,
-            "name": "personal",
+            "name": "family-size",
+            "description": "Fireworks intended for recreational use during holiday celebrations"
+        },
+
+        {
+            "id": 2,
+            "category": 0,
+            "name": "economy",
             "description": "Fireworks intended for recreational use during holiday celebrations"
         },
 
         {
             "id": 0,
-            "category": 0,
-            "name": "personal",
+            "category": 1,
+            "name": "militia",
             "description": "Fireworks intended for recreational use during holiday celebrations"
         },
 
         {
-            "id": 0,
-            "category": 0,
-            "name": "personal",
+            "id": 1,
+            "category": 1,
+            "name": "armory",
             "description": "Fireworks intended for recreational use during holiday celebrations"
         },
 
         {
-            "id": 0,
-            "category": 0,
-            "name": "personal",
-            "description": "Fireworks intended for recreational use during holiday celebrations"
-        },
-
-        {
-            "id": 0,
-            "category": 0,
-            "name": "personal",
+            "id": 2,
+            "category": 1,
+            "name": "nuclear",
             "description": "Fireworks intended for recreational use during holiday celebrations"
         }
     ]

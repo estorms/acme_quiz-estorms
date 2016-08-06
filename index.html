@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Acme Quiz</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<h1>Acme Quiz</h1>
-<body>
-<select>
-  <option value="Fireworks">Fireworks</option>
-  <option value="Demolition">Demolition</option>
-</select>
-
-<div id="output"></div>
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="scripts.js"></script>
-<!-- <script type="text/javascript" src="secondway.js"></script> -->
-</body>
+    <head>
+        <title>Acme Quiz</title>
+        <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Blow Stuff UP</h1>
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Explosives <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="#" id="familyFun">Family Fun</a></li>
+                    <li><a href="#" id="destroyThePlanet">Destroy the Planet</a></li>
+                </ul>
+                <div class="container" id="output">
+                </div>
+            </div>
+        </div>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="scripts.js"></script>
+        <script type="text/javascript" src="DOMload.js"></script>
+    </body>
 </html>
