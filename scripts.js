@@ -17,27 +17,18 @@ var products = []
                     types = catalog[1].types
                     products = catalog[2].products
 
+                    var productNames = []
+
                     for (var i in products){
                         productsA = products[i]
                         for (var e in productsA) {
                             productsB = productsA[e]
 
                         console.log(productsB)
+                         $("#output").append(`${productsB.name} ${productsB.type} ${productsB.description}`);
+
                     }
-                }
-
-                    productsB.forEach(function(car) {
-
-
-                        document.getElementById('output').innerHTML += // append each object to targeted DOM element
-                        `<div class="col-md-4 allCars">
-                        <h3 class="carColumn">${car.id} ${car.category}</h3>
-                        <p class="carColumn">${car.name}
-                        <p class="carColumn">&#36;${car.description}
-                        </p></p></div>`
-                         })
-
-
+                }s
                         })
 
 
@@ -68,8 +59,3 @@ var products = []
 Factory.loadProducts();
 
 })
-
-
-
-
-
