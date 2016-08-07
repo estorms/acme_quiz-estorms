@@ -1,9 +1,11 @@
-$(document).ready(function (){
+$(document).ready();
+
 
 var Factory = (function (fact) {
-var categories = []
-var types = []
-var products = []
+
+var categories
+var types
+var products
 
     fact.loadProducts = function (){
         Promise.all ([
@@ -15,47 +17,19 @@ var products = []
                 .then(function (catalog) {
                     categories = catalog[0].categories
                     types = catalog[1].types
-                    products = catalog[2].products
-
-                    var productNames = []
-
-                    for (var i in products){
-                        productsA = products[i]
-                        for (var e in productsA) {
-                            productsB = productsA[e]
-
-                        console.log(productsB)
-                         $("#output").append(`${productsB.name} ${productsB.type} ${productsB.description}`);
-
-                    }
-                }s
-                        })
+                    products = catalog[2].products[0]
 
 
+                })
 
-
-
-
-
-
-
-
-
-
-                             $( "#destroyThePlanet" ).click(function() {
-                             $("#output").append(`${products}`);
-                                });
-
-
-
-            }
-
+}
 
 
     return fact
 
 })(Factory || {})
 
-Factory.loadProducts();
+Factory.loadProducts()
 
-})
+
+
