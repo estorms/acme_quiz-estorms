@@ -5,7 +5,7 @@
         "Clunk": {
             "id": 0,
             "type": 0,
-            "name": "Fairy Sparklers",
+            "name": "Clunk",
             "description": "Multi-colored sparklers that are safe for any age."
         }
     },
@@ -13,7 +13,7 @@
         "Cavorter": {
             "id": 1,
             "type": 0,
-            "name": "Fairy Sparklers",
+            "name": "Cavorter",
             "description": "Multi-colored sparklers that are safe for any age."
         }
     },
@@ -21,7 +21,7 @@
         "Can I Kick It?": {
             "id": 2,
             "type": 0,
-            "name": "Fairy Sparklers",
+            "name": "Can I Kick It?",
             "description": "Multi-colored sparklers that are safe for any age."
         }
     },
@@ -29,7 +29,7 @@
         "Forever Whispers": {
             "id": 3,
             "type": 1,
-            "name": "Fairy Sparklers",
+            "name": "Forever Whispers",
             "description": "Multi-colored sparklers that are safe for any age."
         }
     },
@@ -37,7 +37,7 @@
         "Perfume": {
             "id": 4,
             "type": 1,
-            "name": "Fairy Sparklers",
+            "name": "Perfume",
             "description": "Multi-colored sparklers that are safe for any age."
         }
     },
@@ -45,7 +45,7 @@
         "Shore Leave": {
             "id": 5,
             "type": 1,
-            "name": "Fairy Sparklers",
+            "name": "Shore Leave",
             "description": "Multi-colored sparklers that are safe for any age."
         }
     },
@@ -53,7 +53,7 @@
         "Mirage": {
             "id": 6,
             "type": 2,
-            "name": "Fairy Sparklers",
+            "name": "Mirage",
             "description": "Multi-colored sparklers that are safe for any age."
         }
     },
@@ -61,7 +61,7 @@
         "Hercules": {
             "id": 7,
             "type": 2,
-            "name": "Fairy Sparklers",
+            "name": "Hercules",
             "description": "Multi-colored sparklers that are safe for any age."
         }
     },
@@ -69,7 +69,7 @@
         "Lost in a Forest": {
             "id": 8,
             "type": 2,
-            "name": "Fairy Sparklers",
+            "name": "Lost in a Forest",
             "description": "Multi-colored sparklers that are safe for any age."
         }
     },
@@ -77,7 +77,7 @@
         "The Jester": {
             "id": 9,
             "type": 3,
-            "name": "Fairy Sparklers",
+            "name": "The Jester",
             "description": "Multi-colored sparklers that are safe for any age."
         }
     },
@@ -85,7 +85,7 @@
         "Doom Heart": {
             "id": 10,
             "type": 3,
-            "name": "Fairy Sparklers",
+            "name": "Doom Heart",
             "description": "Multi-colored sparklers that are safe for any age."
         }
     },
@@ -93,7 +93,7 @@
         "Purchase 18": {
             "id": 11,
             "type": 3,
-            "name": "Fairy Sparklers",
+            "name": "Purchase 18",
             "description": "Multi-colored sparklers that are safe for any age."
         }
     },
@@ -101,7 +101,7 @@
         "Hit Me, Jack": {
             "id": 12,
             "type": 4,
-            "name": "Fairy Sparklers",
+            "name": "Hit Me, Jack",
             "description": "Multi-colored sparklers that are safe for any age."
         }
     },
@@ -109,7 +109,7 @@
         "Hearts": {
             "id": 13,
             "type": 4,
-            "name": "Fairy Sparklers",
+            "name": "Hearts",
             "description": "Multi-colored sparklers that are safe for any age."
         }
     },
@@ -117,7 +117,7 @@
         "Page Down": {
             "id": 14,
             "type": 4,
-            "name": "Fairy Sparklers",
+            "name": "Page Down",
             "description": "Multi-colored sparklers that are safe for any age."
         }
     },
@@ -125,7 +125,7 @@
         "Coors Light": {
             "id": 15,
             "type": 5,
-            "name": "Fairy Sparklers",
+            "name": "Coors Light",
             "description": "Multi-colored sparklers that are safe for any age."
         }
     },
@@ -133,7 +133,7 @@
         "Faintest": {
             "id": 16,
             "type": 5,
-            "name": "Fairy Sparklers",
+            "name": "Faintest",
             "description": "Multi-colored sparklers that are safe for any age."
         }
     },
@@ -141,7 +141,7 @@
         "Yellow Gods": {
             "id": 17,
             "type": 5,
-            "name": "Fairy Sparklers",
+            "name": "Yellow Gods",
             "description": "Multi-colored sparklers that are safe for any age."
         }
     }]
