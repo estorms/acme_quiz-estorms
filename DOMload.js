@@ -25,6 +25,7 @@ for (var i in products) {
 demolitions.forEach(function (demo) {
 
    $( "#destroyThePlanet" ).click(function() {
+    $('#holder').toggleClass('holder')
           $("#output").append(`<div class = "col-md-4 card">
             <h2>Category: ${categories[types[demo.type].category].name}</h2>
             <h3>Type: ${types[demo.type].name}</h3>
@@ -38,6 +39,7 @@ fireworks.forEach(function (firework){
 
 
         $( "#familyFun" ).click(function() {
+            $('#holder').toggleClass('holder')
             $("#output").append(`<div class = "col-md-4 card">
             <h2>Category: ${categories[types[firework.type].category].name}</h2>
             <h3>Type: ${types[firework.type].name}</h3>
