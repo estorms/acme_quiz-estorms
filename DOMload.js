@@ -1,23 +1,10 @@
 var Factory = (function (fact) {
     console.log('DOMload running')
 
-var fireworks =[]
-var demo = []
-
-
-// fact.getResults = function (categories, types, products) {
-//     for (var i = 0; i < products.length; i++) {
-//     if (products[i].type <= 3) {
-//         fireworks.push(products[i])
-//         console.log(fireworks)
-//     }
-//     }
-// }
-
 
 fact.destruction = function() {
         $( "#destroyThePlanet" ).click(function() {
-          $("#output").append('destroyThePlanet');
+          $("#output").append('garbage');
         });
 
         $( "#familyFun" ).click(function() {
@@ -26,8 +13,11 @@ fact.destruction = function() {
 
 }
 
-return fact
+function aawpeoighwpqeoigh(x, y){
 
+
+}
+return fact
 
 
 })(Factory || {})
