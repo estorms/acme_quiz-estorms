@@ -1,7 +1,15 @@
 $(document).ready();
 
+
+
 var fireworks = [];
 var demolitions = [];
+
+// var dropdown = document.getElementById('dropdown');
+// dropdown.addEventListener('click', function (e){
+// document.getElementById('output').innerText = ''
+
+// })
 
 function putThingsInDom(categories,types,products){
 
@@ -27,6 +35,7 @@ demolitions.forEach(function (demo) {
 })
 
 fireworks.forEach(function (firework){
+
 
         $( "#familyFun" ).click(function() {
             $("#output").append(`<div class = "col-md-4 card">
