@@ -1,26 +1,23 @@
-var Factory = (function (fact) {
-    console.log('DOMload running')
+var fireworks = [];
+var demolitions = [];
+
+function putThingsInDom(categories,types,products){
+
+for (var i in products) {
+    if (products[i].type <= 2) {
+        fireworks.push(products[i])
+    }
+    else {
+        demolitions.push(products[i])
+    }
+}
+
+// console.log(fireworks, demolitions)
 
 
-fact.destruction = function() {
-        $( "#destroyThePlanet" ).click(function() {
-          $("#output").append('garbage');
-        });
 
-        $( "#familyFun" ).click(function() {
-          $("#output").append('familyFun');
-        });
 
 }
 
-function aawpeoighwpqeoigh(x, y){
 
-
-}
-return fact
-
-
-})(Factory || {})
-// Factory.prodMatch();
-Factory.destruction();
-
+Factory.loadProducts(putThingsInDom)

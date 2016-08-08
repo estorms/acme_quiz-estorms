@@ -20,17 +20,17 @@ var products = null;
 
                 .then(function (catalog) {
                 categories = catalog[0].categories
-                console.log(categories)
+                // console.log(categories)
                 types = catalog[1].types
-                console.log(types)
+                // console.log(types)
                 products = catalog[2].products[0]
-                console.log(products)
+                // console.log(products)
 
                     putThingsInDom(categories,types,products)
                 })
 
             }
-            console.log(categories)
+            // console.log(categories)
 
 return fact;
 
@@ -40,17 +40,9 @@ return fact;
 (Factory || {})
 
 
-function putThingsInDom(variable1,variable2,variable3){
-    console.log("Insert DOM manuipluation here!!")
-}
+// function putThingsInDom(variable1,variable2,variable3){
+//     console.log("Insert DOM manuipluation here!!")
+// }
 
 
-Factory.loadProducts(putThingsInDom)
-
-
-
-
-
-
-
-
+// Factory.loadProducts(putThingsInDom)
