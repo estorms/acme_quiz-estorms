@@ -1,5 +1,20 @@
 h1, .dropdown {
     text-align: center;
+    margin-top: 25px
 
 }
 
+.card {
+box-shadow: 20px 5px 7px black;
+margin-top: 25px;
+text-align: center;
+
+}
+
+.dropdown-menu {
+margin-top: 25px;
+  left: 50%;
+  right: auto;
+  text-align: center;
+  transform: translate(-50%, 0)
+}
