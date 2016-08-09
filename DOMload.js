@@ -19,7 +19,7 @@ function putThingsInDom(categories,types,products){
 $( "#familyFun" ).click(fireworksPop);
 $( "#destroyThePlanet" ).click(demoPop);
 
-function fireworksPop () {
+function fireworksPop() {
     $("#output").empty();
     fireworks.forEach(function (firework){
         $("#output").append(`
@@ -49,6 +49,7 @@ function demoPop () {
 }
 
 }
+
 
 
 
