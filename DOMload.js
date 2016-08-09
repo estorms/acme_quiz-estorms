@@ -1,3 +1,5 @@
+var Factory = (function(fact) {
+
 $(document).ready();
 
 var fireworks = [];
@@ -5,7 +7,7 @@ var demolitions = [];
 
 
 
-function putThingsInDom(categories,types,products){
+fact.putThingsInDom = function (categories,types,products){
  for (var i in products) {
     if (products[i].type <= 2) {
         fireworks.push(products[i]);
@@ -50,9 +52,12 @@ function demoPop () {
 
 }
 
+return fact;
 
+})
 
+(Factory || {})
 
-Factory.loadProducts(putThingsInDom);
+Factory.loadProducts(Factory.putThingsInDom);
 
 
