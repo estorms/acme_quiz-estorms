@@ -1,6 +1,18 @@
 body {
     background-image: url('mushroom-cloud.png');
-    background-size: 200px 200px;
+    background-size: 275px 275px;
+    background-position: center;
+}
+
+h1 {
+    font-size: 3em;
+   /* font-weight: bold;*/
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: hotpink;
+}
+
+.heading{
+    border: 2px solid red;
 }
 
 h1, .dropdown {
@@ -9,9 +21,12 @@ h1, .dropdown {
 }
 
 .card {
+    display: block;
     box-shadow: 20px 5px 7px black;
-    margin-top: 25px;
-    text-align: center;
+    padding: 10px;
+    margin: 25px 20px 0px;
+    /*text-align: center;*/
+    border-radius: 15px 50px 30px;
 }
 
 .dropdown-menu {
