@@ -4,7 +4,7 @@
             "id": 0,
             "type": 0,
             "name": "Clunk",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "description": "Now I am the shoreline. Now I am the sea."
 
 
     },
@@ -12,20 +12,20 @@
             "id": 1,
             "type": 0,
             "name": "Cavorter",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "description": "See that monolith? I cannot say what I have become."
 
     },
         "Can I Kick It?": {
             "id": 2,
             "type": 0,
             "name": "Can I Kick It?",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "description": "The yard gnome grows a secret tooth for each letter of your name."
     },
         "Forever Whispers": {
             "id": 3,
             "type": 1,
             "name": "Forever Whispers",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "description": "Forgive me, Wallace. I ran out of ideas."
     },
 
         "Perfume": {
@@ -38,20 +38,20 @@
             "id": 5,
             "type": 1,
             "name": "Shore Leave",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "description": "She lives in North Port, Canadia, where the excitement is."
     },
 
         "Mirage": {
             "id": 6,
             "type": 2,
             "name": "Mirage",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "description": "Motoring through the swamp to the last extant shack."
     },
         "Hercules": {
             "id": 7,
             "type": 2,
             "name": "Hercules",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "description": "A man and a woman // are one. A man and a woman and a blackbird // are one."
     },
         "Lost in a Forest": {
             "id": 8,
