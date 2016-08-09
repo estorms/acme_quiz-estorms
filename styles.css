@@ -9,7 +9,6 @@ box-shadow: 20px 5px 7px black;
 margin-top: 25px;
 text-align: center;
 
-
 }
 
 .dropdown-menu {
@@ -20,6 +19,3 @@ margin-top: 25px;
   transform: translate(-50%, 0)
 }
 
-.holder {
-    display: none;
-}
