@@ -1,7 +1,5 @@
 var Factory = (function(fact) {
 
-$(document).ready();
-
 var fireworks = [];
 var demolitions = [];
 
@@ -59,5 +57,6 @@ return fact;
 (Factory || {})
 
 Factory.loadProducts(Factory.putThingsInDom);
+
 
 
