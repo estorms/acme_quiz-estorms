@@ -1,0 +1,124 @@
+{
+    "products": [{
+        "Clunk": {
+            "id": 0,
+            "type": 0,
+            "name": "Clunk",
+            "description": "Now I am the shoreline."
+
+
+    },
+        "Cavorter": {
+            "id": 1,
+            "type": 0,
+            "name": "Cavorter",
+            "description": "See that monolith?"
+
+    },
+        "Can I Kick It?": {
+            "id": 2,
+            "type": 0,
+            "name": "Can I Kick It?",
+            "description": "The yard gnome grows a secret tooth."
+    },
+        "Forever Whispers": {
+            "id": 3,
+            "type": 1,
+            "name": "Forever Whispers",
+            "description": "Forgive me, Wallace. I ran out."
+    },
+
+        "Perfume": {
+            "id": 4,
+            "type": 1,
+            "name": "Perfume",
+            "description": "Multi-colored sparklers safe."
+    },
+        "Shore Leave": {
+            "id": 5,
+            "type": 1,
+            "name": "Shore Leave",
+            "description": "She lives in North Port, Canadia."
+    },
+
+        "Mirage": {
+            "id": 6,
+            "type": 2,
+            "name": "Mirage",
+            "description": "Motoring through the swamp."
+    },
+        "Hercules": {
+            "id": 7,
+            "type": 2,
+            "name": "Hercules",
+            "description": "A man and a woman and a blackbird."
+    },
+        "Lost in a Forest": {
+            "id": 8,
+            "type": 2,
+            "name": "Lost in a Forest",
+            "description": "Give me heaven, Jessica."
+    },
+        "The Jester": {
+            "id": 9,
+            "type": 3,
+            "name": "The Jester",
+            "description": "Endless, endless, entertainment."
+    },
+        "Doom Heart": {
+            "id": 10,
+            "type": 3,
+            "name": "Doom Heart",
+            "description": "My regards to the trench, August."
+    },
+
+        "Purchase 18": {
+            "id": 11,
+            "type": 3,
+            "name": "Purchase 18",
+            "description": "Private prices gives me dominoes."
+    },
+
+        "Hit Me, Jack": {
+            "id": 12,
+            "type": 4,
+            "name": "Hit Me, Jack",
+            "description": "Once we have our bacon and wheat."
+    },
+
+        "Hearts": {
+            "id": 13,
+            "type": 4,
+            "name": "Hearts",
+            "description": "Blend and read the instructions."
+    },
+        "Page Down": {
+            "id": 14,
+            "type": 4,
+            "name": "Page Down",
+            "description": "Rinse rinse rinse rinse."
+
+    },
+        "Coors Light": {
+            "id": 15,
+            "type": 5,
+            "name": "Coors Light",
+            "description": "Argula on a yacht: nothing affects."
+    },
+
+        "Faintest": {
+            "id": 16,
+            "type": 5,
+            "name": "Faintest",
+            "description": "We are waiting for the user."
+    },
+
+        "Yellow Gods": {
+            "id": 17,
+            "type": 5,
+            "name": "Yellow Gods",
+            "description": "Lastly, a Dadaist interpretation."
+
+    }
+}]
+}
