@@ -23,7 +23,7 @@ var products = null;
 
             }
 
-return fact;
+    return fact
 
 })
 
